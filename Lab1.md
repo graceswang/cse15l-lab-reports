@@ -16,7 +16,7 @@
 ![Image](471696610651_.pic.jpg)
 ![Image](481696610660_.pic.jpg)
 
-  The working directory is /home. It waits for input from standard input.  It is an error because using command `cat` with no arguments will crash the class.
+  The working directory is /home. It waits for input from standard input. It is an error because using command `cat` with no arguments will crash the terminal as shown in the picture.
 
 #### 2.Share an exmaple of using the command with a path to a directory as an argument.
   - command `cd` with a path to a directory as an argument.
