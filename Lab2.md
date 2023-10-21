@@ -33,3 +33,27 @@ class StringServer {
     }
 }
 ```
+
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/73bc7c24-5d70-47db-925b-959d663c5dc7)
+- For this screenshot, the port here is 6066, and directs the request to the Handler class. The method handleRequest(URI url) in the Handler class gets called.
+- For this method handleRequest(URI url), the relevant argument is the url（http://localhost:6066/add-message?s=Hello). The field here is **print**. Before the request, its value is empty, which is a empty StringBuilder. After the request, its value is the content after **=** that we are trying to append to.
+- So here, since the path equals to **/add-message**, the value **"Hello"** is appended to the **print** StringBuilder, followed by a newline **\n**. After this specific request, the **print** StringBuildr will have the value **"Hello\n"**. 
+
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/cfff41fe-ef35-4398-99eb-8f7166c5db7d)
+- For this screenshot, the port here is 6066, and directs the request to the Handler class. The method handleRequest(URI url) in the Handler class gets called.
+- For this method handleRequest(URI url), the relevant argument is the url（http://localhost:6066/add-message?s=How are you). The field here is **print**. Before the request, its value is **"Hello\n"**. After the request, its value is the content after **=** that we are trying to append to.
+- So here, since the path equals to **/add-message**, the value **"How are you"** is appended to the existing **print** StringBuilder, followed by a newline **\n**. After this specific request, the **print** StringBuildr which had the value **"Hello\n"** from the previous request will now become **"Hello\n How are you\n"**.
+
+
+# Part 2:
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/14351670-f221-42a1-99a5-189b36b9df82)
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/f34ffff9-09b5-42d1-9af6-61459a9cca90)
+To show the path to the private key and public key for my SSH key for logging into ieng6, I used ```ls /Users/gracewang/.ssh/id_rsa``` and ```ls /Users/gracewang/.ssh/id_rsa.pub```, and the path for private key is **/Users/gracewang/.ssh/id_rsa** and the path for public key is **/Users/gracewang/.ssh/id_rsa.pub** which is matched with the saved path in second screenshot. 
+A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password:
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/5c164b2f-4160-4d99-b7a9-f3111800cc48)
+
+# Part 3:
+I didn't know that how to log in ssh and control the remote computer. I've also never known that we could not only access to the website by adding the url line but also using ``url`` in command line. It is also new for me to log in my ssh account without a password and I think it's good for me, because sometimes I'll forget my password and have to change it. 
+
+
+  
