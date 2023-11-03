@@ -51,7 +51,7 @@ class StringServer {
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/14351670-f221-42a1-99a5-189b36b9df82)
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/f34ffff9-09b5-42d1-9af6-61459a9cca90)
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/384d1638-8fdb-4e12-b36b-339b878bb6d9)
-To show the path to the private key and public key for my SSH key for logging into ieng6, I used ```ls /Users/gracewang/.ssh/id_rsa``` and ```scp /Users/gracewang/.ssh/id_rsa.pub cs15lfa23bo@ieng6.ucsd.edu:~/.ssh/authorized_keys```, and the path for private key is **/Users/gracewang/.ssh/id_rsa** and the path for public key is **/Users/gracewang/.ssh/authorized_keys/id_rsa.pub** 
+To show the path to the private key and public key for my SSH key for logging into ieng6, I used ```ls /Users/gracewang/.ssh/id_rsa``` and ```scp /Users/gracewang/.ssh/id_rsa.pub cs15lfa23bo@ieng6.ucsd.edu:~/.ssh/authorized_keys```, and the path for private key is **/Users/gracewang/.ssh/id_rsa** and the path for public key is **/Users/gracewang/.ssh/authorized_keys/id_rsa.pub** \\
 **/home/cs15lfa23bo/.ssh/authorized_keys**
 which is matched with the saved path in second screenshot. 
 A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password:
