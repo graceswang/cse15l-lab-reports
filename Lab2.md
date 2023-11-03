@@ -7,12 +7,14 @@ import java.net.URI;
 
 class Handler implements URLHandler {
     StringBuilder print = new StringBuilder();
+    int counter = 0;
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                print.append(parameters[1]+"\n");
+                counter++;
+                print.append(counter+". "+parameters[1]+"\n");
                 return String.format(print.toString() +"\n");
             }
         }
@@ -34,15 +36,15 @@ class StringServer {
 }
 ```
 
-![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/73bc7c24-5d70-47db-925b-959d663c5dc7)
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/5743d7d8-15ad-4663-bbf2-d88d2f04b7ae)
 - For this screenshot, the port here is 6066, and directs the request to the Handler class. The method handleRequest(URI url) in the Handler class gets called.
 - For this method handleRequest(URI url), the relevant argument is the url（http://localhost:6066/add-message?s=Hello). The field here is **print**. Before the request, its value is empty, which is a empty StringBuilder. After the request, its value is the content after **=** that we are trying to append to.
-- So here, since the path equals to **/add-message**, the value **"Hello"** is appended to the **print** StringBuilder, followed by a newline **\n**. After this specific request, the **print** StringBuildr will have the value **"Hello\n"**. 
+- So here, since the path equals to **/add-message**, the value **"Hello"** is appended to the **print** StringBuilder, the variable **counter** will become **1** as it increments. After this specific request, the **print** StringBuildr will have the value **"1. Hello\n"**. 
 
-![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/cfff41fe-ef35-4398-99eb-8f7166c5db7d)
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/cbebe944-05b6-46d0-8f01-c20cc7e5e780)
 - For this screenshot, the port here is 6066, and directs the request to the Handler class. The method handleRequest(URI url) in the Handler class gets called.
 - For this method handleRequest(URI url), the relevant argument is the url（http://localhost:6066/add-message?s=How are you). The field here is **print**. Before the request, its value is **"Hello\n"**. After the request, its value is the content after **=** that we are trying to append to.
-- So here, since the path equals to **/add-message**, the value **"How are you"** is appended to the existing **print** StringBuilder, followed by a newline **\n**. After this specific request, the **print** StringBuildr which had the value **"Hello\n"** from the previous request will now become **"Hello\n How are you\n"**.
+- So here, since the path equals to **/add-message**, the value **"How are you"** is appended to the existing **print** StringBuilder, the variable **counter** will become **2** as it increments once. After this specific request, the **print** StringBuildr which had the value **"1. Hello\n"** from the previous request will now become **"2. Hello\n How are you\n"**.
 
 
 # Part 2:
