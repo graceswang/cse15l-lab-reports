@@ -51,7 +51,7 @@ class StringServer {
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/14351670-f221-42a1-99a5-189b36b9df82)
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/f34ffff9-09b5-42d1-9af6-61459a9cca90)
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/c1eafd33-e350-4bff-bff8-7574458770d4)
-To show the path to the private key and public key for my SSH key for logging into ieng6, I used ```ls /Users/gracewang/.ssh/id_rsa``` and ```ls /home/linux/ieng6/cs15lfa23/cs15lfa23bo/.ssh/authorized_keys```, and the path for private key is **/Users/gracewang/.ssh/id_rsa**。 The path for public key is **/home/linux/ieng6/cs15lfa23/cs15lfa23bo/.ssh/authorized_keys** for my SSH key for logging into ieng6 because the remote home is **/home/linux/ieng6/cs15lfa23/cs15lfa23bo/** and **.ssh** is a hidden directory. This path also matched with the saved path in second screenshot. 
+To show the path to the private key and public key for my SSH key for logging into ieng6, I used ```ls /Users/gracewang/.ssh/id_rsa``` and ```ls /home/linux/ieng6/cs15lfa23/cs15lfa23bo/.ssh/authorized_keys```, and the path for private key is **/Users/gracewang/.ssh/id_rsa**. The path for public key is **/home/linux/ieng6/cs15lfa23/cs15lfa23bo/.ssh/authorized_keys** for my SSH key for logging into ieng6 because the remote home is **/home/linux/ieng6/cs15lfa23/cs15lfa23bo/** and **.ssh** is a hidden directory. This path also matched with the saved path in second screenshot. 
 A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password:
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/5c164b2f-4160-4d99-b7a9-f3111800cc48)
 
