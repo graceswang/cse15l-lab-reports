@@ -23,6 +23,7 @@ public void testReverseInPlace() {
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/12194c66-ec34-4d3a-be56-049b7efbad67)
 
 - Bug：
+  
 **code before**
 ```ruby
 static void reverseInPlace(int[] arr) {
