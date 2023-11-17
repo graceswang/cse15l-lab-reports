@@ -20,7 +20,7 @@ public void testReverseInPlace() {
 ```
 
 - Symptom：
-![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/12194c66-ec34-4d3a-be56-049b7efbad67)
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/e3351954-01f6-48d9-86f2-57ed6fc59c27)
 
 - Bug：
   
@@ -35,18 +35,16 @@ static void reverseInPlace(int[] arr) {
 **code after**
 ```ruby
 static void reverseInPlace(int[] arr) {
-    int[] temp = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      temp[i] = arr[arr.length - i - 1];
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
     }
-    for (int j = 0; j<temp.length;j++) {
-      arr[j] = temp[j];
-    }
-}
+} 
 ```
 Explanation:
 
-The given method reverseInPlace attempts to reverse the elements of an array arr in place. However, when we iterates through the loop, we will overwirte values that we haven't yet used to swap. Therefore, we will lose data and deal with the same value in the very end. The method before doesn't reverse the array correctly. After we correct the code, we first introduce a new array called temp and we fill in the temp with the old array backward, so the temp will be a reversed version of the old array. Then we use deep copy to copy everything in the new array temp back to the old array and we successfully reverse the elements of an array in place. 
+The given method reverseInPlace attempts to reverse the elements of an array arr in place. However, when we iterates through the loop, we will overwirte values that we haven't yet used to swap. Therefore, we will lose data and deal with the same value in the very end. The method before doesn't reverse the array correctly. After we correct the code, we introduce a new variable called temp to temporarily store the original value of arr[i] and we find the element backward and swap with the element from forward, and then we give the variable temp with the original value back to the element backward, which helps us keep the original data. We also need to take care of the stop, since we swap two elements each time, we should stop at the middle point of the array, thus we can successfully reverse the elements of an array in place. 
 
 ## Part2
 **I chose `grep` command.**
