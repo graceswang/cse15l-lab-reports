@@ -21,7 +21,7 @@ public void testReverseInPlace() {
 
 - Symptom：
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/e3351954-01f6-48d9-86f2-57ed6fc59c27)
-
+testReverseInPlace2() is the test that's not passing and testReverseInPlace() is the test that is passing input.
 - Bug：
   
 **code before**
