@@ -1,6 +1,6 @@
 Step 4. Log into ieng6
 <img width="989" alt="Screenshot 2023-11-19 at 11 11 04" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/56b9c514-823c-47f8-acad-01bd3a74850f">
-Keys pressed: ``ssh cs15lfa23bo@ieng6.ucsd.edu`` command, then <enter>.
+Keys pressed: ``ssh cs15lfa23bo@ieng6.ucsd.edu`` command, then ``<enter>``.
 
 Step 5. Clone your fork of the repository from your Github account (using the SSH URL)
 <img width="958" alt="Screenshot 2023-11-19 at 11 14 07" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/8d14a02d-4b77-4e4d-bd8d-d9aad0a9f036">
