@@ -30,4 +30,5 @@
 <img width="809" alt="Screenshot 2023-11-28 at 09 41 53" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/647df80f-e703-4067-84f4-fa15630f52fe">
 
 
-![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/c575e7a6-5eb4-4cd6-b9cc-b1af06b493f6)
+
+
