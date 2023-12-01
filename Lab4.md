@@ -38,6 +38,7 @@ Keys pressed: ``<esc>``, ``:wq`` , ``<enter>``
 
 Keys pressed: ``bash``, ``<sapce>``, ``test.sh``,``<enter>``
 <img width="779" alt="Screenshot 2023-12-01 at 13 12 24" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/36aa903d-b255-4f84-9eeb-a9c258c692ae">
+
 Now, since we fixed the test in ListExamples.java, two tests are all passed. 
 
 
