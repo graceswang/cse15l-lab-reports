@@ -43,6 +43,7 @@ Now, since we fixed the test in ListExamples.java, two tests are all passed.
 
 
 **Step 9. Commit and push the resulting change to your Github account**
+
 Keys pressed: ``git``, ``<space>``,``add``, ``<enter>``, ``git``,``<space>``,``commit``,``<space>``, ``-m``, ``fix test(testMerge2) by chaging 1 to 2``, ``<enter>``
 ![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/9aca61cf-8b6b-4818-9c7f-0d4395a08fcf)
 
