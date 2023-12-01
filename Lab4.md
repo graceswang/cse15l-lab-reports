@@ -30,6 +30,7 @@ Keys pressed:`` <down><down><down><down><down><down><down><down><down><down><dow
 
 Keys pressed: ``<esc>``, ``:wq`` , ``<enter>``
 <img width="926" alt="Screenshot 2023-11-19 at 11 36 24" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/64b6c396-10ac-404b-b81e-93f1a98f97a6">
+<img width="779" alt="Screenshot 2023-12-01 at 13 12 24" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/36aa903d-b255-4f84-9eeb-a9c258c692ae">
 
 
 
