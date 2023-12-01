@@ -44,14 +44,8 @@ Now, since we fixed the test in ListExamples.java, two tests are all passed.
 
 **Step 9. Commit and push the resulting change to your Github account**
 Keys pressed: ``git``, ``<space>``,``add``, ``<enter>``, ``git``,``<space>``,``commit``,``<space>``, ``-m``, ``fix test(testMerge2) by chaging 1 to 2``, ``<enter>``
-<img width="906" alt="Screenshot 2023-11-19 at 13 57 42" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/6808c923-888b-4435-ab00-e17a82af99ea">
-
-Keys pressed: ``<i>``,write the commit message
-<img width="921" alt="Screenshot 2023-11-19 at 14 03 05" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/e58444c0-97ac-4d4c-80ad-7427a967966f">
-
-Keys pressed: ``<esc>``,``:wq``command,``<enter>``
-<img width="870" alt="Screenshot 2023-11-19 at 14 04 51" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/224f52d7-6785-4410-8f74-2f3773e4d04f">
-<img width="920" alt="Screenshot 2023-11-19 at 14 06 08" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/fd1eec84-b601-40db-a5b0-c7eb7b43e652">
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/9aca61cf-8b6b-4818-9c7f-0d4395a08fcf)
 
 Keys pressed: ``git``,``<space>``, ``push``, ``<enter>``
-<img width="909" alt="Screenshot 2023-11-19 at 14 06 24" src="https://github.com/graceswang/cse15l-lab-reports/assets/135576306/d3e97239-7228-489c-944f-7a008767f840">
+![image](https://github.com/graceswang/cse15l-lab-reports/assets/135576306/b3fd29b0-509b-4e82-925b-b68b36f6cf76)
+
