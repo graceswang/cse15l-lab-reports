@@ -1,4 +1,4 @@
-****PART 1****
+##PART 1
 
 **1. student post:**
 
@@ -61,3 +61,10 @@ I ran ```bash``` + <space> + ```test.sh``` + <enter> to trigger the bug, it is b
 **A description of what to edit to fix the bug** 
 
 As the explanation in **3.**.
+
+
+##PART 2 - Reflection
+
+I didn't know how to change directory, see what insde a file without opening before. After this class, I know that we could use ```cd``` to change directory and ```cat``` to print out the context inside the file. We could also use ```pwd``` to check where we are right now(currect directory). I found it was really helpful and fun, because when I was taking cse8a and cse11, I worked a lot with the autograder
+when I submitted my PA each time, but I would never know how to build a autograder without the study of cse15l. I also wanted to thank the help from all tutors and TAs especially Will, Yash, and Nikhil, and also my lab section tutor but sorry I forgot her name. 
+
